@@ -1,0 +1,16 @@
+default partial alphanumeric_keys
+xkb_symbols "usqwertz" {
+    include "us(basic)"
+    include "eurosign(e)"
+    name[Group1] = "US with German Qwertz";
+    
+    key <AC01> {[   a,  A,  adiaeresis, Adiaeresis  ]};
+    key <AD09> {[   o,  O,  odiaeresis, Odiaeresis  ]};
+    key <AD01> {[   q,  Q,  at                      ]};
+    key <AC02> {[   s,  S,  ssharp,     U1E9E       ]};
+    key <AD07> {[   u,  U,  udiaeresis, Udiaeresis  ]};
+    key <AB01> {[   y,  Y                           ]};
+    key <AD06> {[   z,  Z                           ]};
+
+    include "level3(ralt_switch)"
+};
