@@ -4,16 +4,17 @@ xkb_symbols "usqwertz" {
     include "eurosign(e)"
     name[Group1] = "US with German Qwertz";
     
-    key <AC01> {[   a,          A,          adiaeresis, Adiaeresis  ]};
-    key <AC03> {[   d,          D,          degree                  ]};
-    key <AB07> {[   m,          M,          mu                      ]};
-    key <AD09> {[   o,          O,          odiaeresis, Odiaeresis  ]};
-    key <AD10> {[   p,          P,          section                 ]};
-    key <AD01> {[   q,          Q,          at                      ]};
-    key <AC02> {[   s,          S,          ssharp,     U1E9E       ]};
-    key <AD07> {[   u,          U,          udiaeresis, Udiaeresis  ]};
-    key <AB01> {[   y,          Y                                   ]};
-    key <AD06> {[   z,          Z                                   ]};
+    key <AC01> {[   a,          A,          adiaeresis,     Adiaeresis      ]};
+    key <AC03> {[   d,          D,          degree                          ]};
+    key <AC09> {[   l,          L,          Greek_lambda,   Greek_LAMBDA    ]};
+    key <AB07> {[   m,          M,          mu                              ]};
+    key <AD09> {[   o,          O,          odiaeresis,     Odiaeresis      ]};
+    key <AD10> {[   p,          P,          section                         ]};
+    key <AD01> {[   q,          Q,          at                              ]};
+    key <AC02> {[   s,          S,          ssharp,         U1E9E           ]};
+    key <AD07> {[   u,          U,          udiaeresis,     Udiaeresis      ]};
+    key <AB01> {[   y,          Y                                           ]};
+    key <AD06> {[   z,          Z                                           ]};
 
     include "level3(ralt_switch)"
 };
