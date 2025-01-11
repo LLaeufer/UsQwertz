@@ -1,20 +1,25 @@
 default partial alphanumeric_keys
 xkb_symbols "usqwertz" {
-    include "us(basic)"
+    include "us(euro)"
     include "eurosign(e)"
-    name[Group1] = "US with German Qwertz";
+    include "eurosign(2)"
+    name[Group1] = "A layout for German speaking programmers";
     
-    key <AC01> {[   a,          A,          adiaeresis,     Adiaeresis      ]};
-    key <AC03> {[   d,          D,          degree                          ]};
-    key <AC09> {[   l,          L,          Greek_lambda,   Greek_LAMBDA    ]};
-    key <AB07> {[   m,          M,          mu                              ]};
-    key <AD09> {[   o,          O,          odiaeresis,     Odiaeresis      ]};
-    key <AD10> {[   p,          P,          section                         ]};
-    key <AD01> {[   q,          Q,          at                              ]};
-    key <AC02> {[   s,          S,          ssharp,         U1E9E           ]};
-    key <AD07> {[   u,          U,          udiaeresis,     Udiaeresis      ]};
-    key <AB01> {[   y,          Y                                           ]};
-    key <AD06> {[   z,          Z                                           ]};
+    key <AE08>  {[  8,  asterisk,   doublelowquotemark,     singlelowquotemark      ]};
+    key <AE09>  {[  9,  parenleft,  leftdoublequotemark,    leftsinglequotemark     ]};
+    key <AE10>  {[  0,  parenright, rightdoublequotemark,   rightsinglequotemark    ]};
 
-    include "level3(ralt_switch)"
+    key <AD01>  {[  q,  Q,          at                                              ]};
+    key <AD06>  {[  z,  Z                                                           ]};
+    key <AD07>  {[  u,  U,          udiaeresis,             Udiaeresis              ]};
+    key <AD09>  {[  o,  O,          odiaeresis,             Odiaeresis              ]};
+    key <AD10>  {[  p,  P,          section                                         ]};
+
+    key <AC01>  {[  a,  A,          adiaeresis,             Adiaeresis              ]};
+    key <AC02>  {[  s,  S,          ssharp,                 U1E9E                   ]};
+    key <AC03>  {[  d,  D,          degree                                          ]};
+    key <AC09>  {[  l,  L,          Greek_lambda,           Greek_LAMBDA            ]};
+
+    key <AB01>  {[  y,  Y                                                           ]};
+    key <AB07>  {[  m,  M,          mu                                              ]};
 };

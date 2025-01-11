@@ -1,6 +1,8 @@
 # UsQwertz
  A mixture of the US Qwerty layout and the German Qwertz layout.
  In essence this layout is the classic US Qwerty layout, with Y and Z being swapped, and ä/Ä, ö/Ö, ß/ẞ, ü/Ü, λ/Λ, °, µ, §, @ and € being reachable via a/A, o/O, s/S, u/U, l/L, d, m, p, q and e in combination with the right alt key.
+
+ Additionally, there is an €-sign on right alt + 2 and right alt + 5, as well as, double and single quotes on right alt 8-0.
  
 # Warning
  Always keep in mind that this script modifies system data, if you aren't able to recover from a broken system, DO NOT USE THIS SCRIPT.
